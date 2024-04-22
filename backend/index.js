@@ -20,3 +20,8 @@ db.on('error', (error)=>{
 db.once('open', ()=>{
     console.log("connected to database")
 })
+
+
+app.listen(9000, ()=>{
+    console.log("server has started")
+})
